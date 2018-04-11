@@ -12,7 +12,7 @@ listofdictionaries = []
 root = objectify.fromstring(r.content)
 
 def by(dictionary):
-    return dictionary['brand']
+    return dictionary['price']
 
 for each in root.channel.item:
     #print (dir(each)) #run dir function on each
