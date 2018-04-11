@@ -24,18 +24,3 @@ for each in root.channel.item:
     listofdictionaries.append(dict_data)
 
 pprint (sorted(listofdictionaries, key=by))
-
-##
-# , reverse=True
-# for each in root.channel.item:
-    # print ("price", ':', each.price)
-# print (description)
-# for r in description:
-#     print(r.tag, ":", r.text)
-#     for r in prices:
-#         print(r.tag, ":", r.text)
-# print(objectify.dump(root))
-# sort first
-# get tomorrows
-# always 1 question mark in the beginnins and the & as you add more
-# dont need a comma on the last line of the dictionary
