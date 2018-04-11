@@ -24,6 +24,8 @@ for each in root.channel.item:
     listofdictionaries.append(dict_data)
 
 pprint (sorted(listofdictionaries, key=by))
+
+##
 # , reverse=True
 # for each in root.channel.item:
     # print ("price", ':', each.price)
